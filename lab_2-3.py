@@ -6,9 +6,11 @@ print(str(a))
 # Change the type of a to a float using a = float(a). What is the result of printing type(a) now?
 a= float(a)
 print(str(a))
+    #the 2 changes to 2.0
 # Convert a to a string. Check its type with a print statement. What has changed?
 a = str(a)
 print(type(a))
 # Convert a to a Boolean. Print the result of a == 2. What is the result? Why? (Answer as a comment)
 a = bool(a)
 print("result of a == 2:", a)
+    #this statement came back as true
